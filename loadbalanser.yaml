@@ -14,7 +14,13 @@ test1
 test2
 test4
 test3
+<<<<<<< HEAD
 =======
 
 test
 >>>>>>> f7f26edd9d7ce82f018915d74088301510cc494c
+=======
+test5
+
+
+>>>>>>> 311d8a90c182ae07f698ac444bbecf432ba015cb
