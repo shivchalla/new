@@ -10,10 +10,15 @@ spec:
     - port: 80
       targetPort: 80
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> feature
 test1
 test2
 test4
 test3
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -24,3 +29,5 @@ test5
 
 
 >>>>>>> 311d8a90c182ae07f698ac444bbecf432ba015cb
+=======
+>>>>>>> feature
