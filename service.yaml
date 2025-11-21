@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-vite-app-deployment
+  labels:
+    app: my-vite-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: my-vite-app
+  template:
+    metadata:
+      labels:
+        app: my-vite-app
+    spec:
+      containers:
+        - name: my-vite-app
+          image: shivchalla/my-vite-app:latest
+          ports:
+            - containerPort: 80
