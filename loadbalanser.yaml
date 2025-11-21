@@ -9,5 +9,10 @@ spec:
   ports:
     - port: 80
       targetPort: 80
+<<<<<<< HEAD
 test1
 test2
+=======
+
+test
+>>>>>>> 6abfcf836866701893e941da43c7ff612e9984a5
